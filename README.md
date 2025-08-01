@@ -6,10 +6,11 @@ Living in Singapore, I'm truly blessed having access to public transportation th
 Based on the idea from [Weatherman Dashboard for ESPHome](https://community.home-assistant.io/t/use-esphome-with-e-ink-displays-to-blend-in-with-your-home-decor/435428), I wanted to make something similar but using a Raspberry Pi Zero with a Waveshare 7.5inch E-Ink display.
 
 This project creates an E-Ink display that shows real-time bus arrival times and train disruption information using data from Singapore's Land Transport Authority (LTA) DataMall API.
+Request for access here: [LTA DataMall](https://datamall.lta.gov.sg/content/datamall/en/request-for-api.html)
 
 ## Things you will need
 1. [Raspberry Pi Zero W](https://s.click.aliexpress.com/e/_oCx7W6d)
-2. [Waveshare 7.5inch E-Ink Display (EPD 7in5 V2)](https://s.click.aliexpress.com/e/_oCtHZjx) 
+2. [Waveshare 7.5inch E-Ink Display (EPD 7in5 V2)](https://s.click.aliexpress.com/e/_oCtHZjx) make sure you get the one with the HAT to connect to the Pi
 3. 40-pin GPIO headers for the Raspberry Pi Zero. I chose to solder it onto the board
 4. [3D Printed Case](https://www.thingiverse.com/thing:3996613) or an [IKEA Ribba 7x5 picture frame](https://shorturl.at/pmxf3)
 3. 5V 3A power supply
