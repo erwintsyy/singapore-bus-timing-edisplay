@@ -15,7 +15,7 @@ if os.path.exists(libdir):
 import requests
 import json
 from datetime import datetime
-from waveshare_epd import epd7in5_V2
+from waveshare_epd import epd7in5h
 import time
 from PIL import Image, ImageDraw, ImageFont
 import traceback
@@ -179,7 +179,7 @@ def display_train_disruption(epd, draw, font, train_info):
 
 try:
     logging.info("Bus Arrival Display on E-Ink")
-    epd = epd7in5_V2.EPD()
+    epd = epd7in5h.EPD()
     
     logging.info("Init and Clear")
     epd.init()
@@ -214,6 +214,6 @@ except IOError as e:
 except KeyboardInterrupt:
     logging.info("Exiting...")
     epd.Clear()
-    epd7in5_V2.epdconfig.module_exit(cleanup=True)
+    epd7in5h.epdconfig.module_exit(cleanup=True)
     exit()
 
