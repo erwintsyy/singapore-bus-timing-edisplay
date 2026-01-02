@@ -8,6 +8,9 @@ Based on the idea from [Weatherman Dashboard for ESPHome](https://community.home
 This project creates an E-Ink display that shows real-time bus arrival times and train disruption information using data from Singapore's Land Transport Authority (LTA) DataMall API.
 Request for access here: [LTA DataMall](https://datamall.lta.gov.sg/content/datamall/en/request-for-api.html)
 
+In addition to bus arrival timings and train disruption alerts, this project has been extended to also display current weather information on the E-Ink display.
+This enhancement modifies main.py to fetch live weather data and render it alongside the transport information, allowing the display to function as a compact daily commute + weather dashboard.
+
 ## Things you will need
 1. [Raspberry Pi Zero W](https://s.click.aliexpress.com/e/_oCx7W6d)
 2. [Waveshare 7.5inch E-Ink Display (EPD 7in5 V2)](https://s.click.aliexpress.com/e/_oCtHZjx) make sure you get the one with the HAT to connect to the Pi
